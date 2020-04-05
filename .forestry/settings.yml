@@ -11,11 +11,11 @@ sections:
   match: "**/*"
   templates:
   - project
+- type: heading
+  label: Settings
 - type: document
   path: site-settings.json
   label: Site Settings
-- type: heading
-  label: Settings
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
