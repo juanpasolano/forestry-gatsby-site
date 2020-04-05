@@ -1,8 +1,11 @@
+const siteSettings = require("./content/site-settings.json")
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
+    siteSettings: siteSettings,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,8 +22,15 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "projects",
-        path: `${__dirname}/content/projects`
-      }
+        path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/content/pages`,
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
