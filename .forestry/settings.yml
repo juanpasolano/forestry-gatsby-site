@@ -14,8 +14,9 @@ sections:
 - type: heading
   label: Settings
 - type: document
-  path: config.json
+  path: site-settings.json
   label: Site Settings
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
