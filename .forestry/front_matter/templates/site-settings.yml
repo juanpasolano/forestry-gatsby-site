@@ -4,6 +4,12 @@ hide_body: true
 fields:
 - name: main_menu
   type: field_group_list
+  fields:
+  - name: link
+    type: include
+    config: {}
+    template: template-link
+    label: Link
   config:
     min: 
     max: 
