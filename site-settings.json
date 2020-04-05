@@ -1,1 +1,11 @@
-{}
+{
+  "main_menu": [
+    {
+      "title": "Work",
+      "url": "/work",
+      "target_blank": false
+    }
+  ],
+  "facebook_link": "",
+  "instagram_link": ""
+}
