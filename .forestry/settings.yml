@@ -11,8 +11,6 @@ sections:
   match: "**/*"
   templates:
   - project
-- type: heading
-  label: Settings
 - type: document
   path: site-settings.json
   label: Site Settings
