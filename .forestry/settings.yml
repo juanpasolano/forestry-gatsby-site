@@ -13,6 +13,9 @@ sections:
   match: "**/*"
   templates:
   - project
+- type: document
+  path: content/site-settings.json
+  label: Site Settings
 - type: directory
   path: content/pages
   label: Pages
@@ -22,9 +25,6 @@ sections:
   - layout
 - type: heading
   label: Settings
-- type: document
-  path: content/site-settings.json
-  label: Site Settings
 upload_dir: ''
 public_path: https://forestry-gatsby-site.s3.us-east-1.amazonaws.com
 front_matter_path: ''
