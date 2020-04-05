@@ -7,24 +7,25 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: content/projects
-  label: Projects
-  create: documents
-  match: "**/*"
-  templates:
-  - project
-- type: directory
   path: content/pages
   label: Pages
   create: documents
   match: "**/*"
   templates:
   - layout
+- type: directory
+  path: content/projects
+  label: Projects
+  create: documents
+  match: "**/*"
+  templates:
+  - project
 - type: heading
   label: Settings
 - type: document
   path: content/site-settings.json
   label: Site Settings
+  match: "**/*"
 upload_dir: ''
 public_path: https://forestry-gatsby-site.s3.us-east-1.amazonaws.com
 front_matter_path: ''
