@@ -7,3 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: blocks
+  type: blocks
+  label: Blocks
+  template_types:
+  - layout-products-grid
+  config:
+    min: 
+    max: 
