@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: content/pages
+  label: Pages
+  create: documents
+  match: "**/*"
+  templates:
+  - layout
+- type: directory
   path: content/projects
   label: Projects
   create: documents
@@ -16,13 +23,6 @@ sections:
 - type: document
   path: content/site-settings.json
   label: Site Settings
-- type: directory
-  path: content/pages
-  label: Pages
-  create: documents
-  match: "**/*"
-  templates:
-  - layout
 - type: heading
   label: Settings
 upload_dir: ''
