@@ -23,7 +23,7 @@ sections:
 - type: heading
   label: Settings
 - type: document
-  path: site-settings.json
+  path: content/site-settings.json
   label: Site Settings
 upload_dir: ''
 public_path: https://forestry-gatsby-site.s3.us-east-1.amazonaws.com
