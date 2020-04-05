@@ -1,4 +1,17 @@
 ---
 label: Site Settings
-hide_body: false
-fields: []
+hide_body: true
+fields:
+- name: main_menu
+  type: field_group_list
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Main Menu
