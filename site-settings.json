@@ -1,13 +1,18 @@
 {
   "main_menu": [
     {
-      "title": "About",
-      "url": "/about-us",
-      "target_blank": false
+      "title": "Careers",
+      "url": "https://modus.recruiterbox.com/",
+      "target_blank": true
     },
     {
       "title": "Work",
       "url": "/work",
+      "target_blank": false
+    },
+    {
+      "title": "About",
+      "url": "/about-us",
       "target_blank": false
     }
   ],
