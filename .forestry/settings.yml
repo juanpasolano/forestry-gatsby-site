@@ -16,8 +16,8 @@ sections:
 - type: document
   path: site-settings.json
   label: Site Settings
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: ''
+public_path: https://forestry-gatsby-site.s3.us-east-1.amazonaws.com
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
