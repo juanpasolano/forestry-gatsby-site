@@ -20,9 +20,6 @@ sections:
   match: "**/*"
   templates:
   - project
-- type: document
-  path: content/site-settings.json
-  label: Site Settings
 - type: heading
   label: Settings
 upload_dir: ''
