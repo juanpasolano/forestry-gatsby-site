@@ -5,13 +5,23 @@ fields:
 - name: main_menu
   type: field_group_list
   fields:
-  - name: title
-    type: text
-    config:
-      required: true
-    label: Title
+  - name: link
+    type: include
+    config: {}
+    template: template-link
+    label: Link
   config:
     min: 
     max: 
     labelField: 
   label: Main Menu
+- name: facebook_link
+  type: text
+  config:
+    required: false
+  label: Facebook Link
+- name: instagram_link
+  type: text
+  config:
+    required: false
+  label: Instagram Link
