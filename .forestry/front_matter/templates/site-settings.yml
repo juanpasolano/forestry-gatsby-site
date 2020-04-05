@@ -13,7 +13,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Main Menu
 - name: facebook_link
   type: text
@@ -25,10 +25,5 @@ fields:
   config:
     required: false
   label: Instagram Link
-- name: linkist
-  type: include
-  config: {}
-  template: template-link
-  label: Linkist
 pages:
 - site-settings.json
