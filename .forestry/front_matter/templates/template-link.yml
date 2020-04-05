@@ -1,4 +1,17 @@
 ---
 label: Template > Link
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+- name: url
+  type: text
+  config:
+    required: true
+  label: URL
+- name: target_blank
+  type: boolean
+  label: Open in a new tab
