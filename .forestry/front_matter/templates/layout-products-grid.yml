@@ -3,6 +3,11 @@ label: Layout > Products Grid
 hide_body: true
 display_field: title
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: projects
   type: list
   config:
@@ -13,8 +18,3 @@ fields:
       type: pages
       section: projects
   label: Projects
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
